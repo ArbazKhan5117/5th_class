@@ -1,5 +1,5 @@
 import React,{useReducer} from 'react';
-import counterReducer from './CountReducer';
+import {counterReducer} from './CountReducer';
 function Child2(){
     let [state,dispatch]=useReducer(counterReducer,1);
     return(
