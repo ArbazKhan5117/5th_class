@@ -28,8 +28,6 @@ jobs:
         with:
           cmd: install 
       # Runs a set of commands using the runners shell
-      - name: starting yarn
-        run: yarn start
       - name: Creating build
         run: yarn build
       - name: Installing Surge

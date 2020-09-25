@@ -1,5 +1,5 @@
 
-const countReducer=(state,action)=>{
+const counterReducer=(state,action)=>{
     switch(action){
         case 'INCREMENT':
             return state+1;
@@ -7,4 +7,4 @@ const countReducer=(state,action)=>{
             return state-1;
     }
 }
-export default countReducer;
+export default counterReducer;
