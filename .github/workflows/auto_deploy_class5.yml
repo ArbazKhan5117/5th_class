@@ -29,7 +29,7 @@ jobs:
           cmd: install 
       # Runs a set of commands using the runners shell
       - name: Creating build
-        run: yarn build
+        run: yarn run build
       - name: Installing Surge
         run: sudo npm install surge --global
       - name: Deploying using surge
