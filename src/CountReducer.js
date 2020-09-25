@@ -1,9 +1,7 @@
 
 export const counterReducer=(state,action)=>{
-    switch(action){
+    switch (action) {
         case 'INCREMENT':
-            return state+1;
-        case 'DECREMENT':
-            return state-1;
+            return state + 1;
     }
 }

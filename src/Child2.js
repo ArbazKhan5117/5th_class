@@ -7,7 +7,6 @@ function Child2(){
         <div>
             <h2>The value of reducer count is {state}</h2>
             <button onClick={()=>dispatch('INCREMENT')}>Increment Reducer</button>
-            <button onClick={()=>dispatch('DECREMENT')}>Decrement Reducer</button>
         </div>
     );
 }
